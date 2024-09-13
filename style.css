@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'FontRM'; 
+    src: url('fonts/get_schwifty.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal; 
+}
+
+body {
+    background-image: url('./wallpaper/rick-y-morty_3840x2160_xtrafondos.com.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+h1 {
+    font-family: 'FontRM', sans-serif;
+}
+
+
+h3 {
+    font-family: 'FontRM', sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(37, 193, 32);
+    align-items: center;
+}
+
+#input_personaje {
+    width: 35%;
+    height: 30px;
+    border-radius: 10px;
+    font-size: x-large;
+    padding-left: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    background-color: rgba(80, 233, 9, 0.493);;
+}
+
+#button_search{
+    width: 10%;
+    height: 30px;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#character-box{
+    width: 50%;
+    height: 500px;
+    background-color: rgba(80, 233, 9, 0.493);
+    margin-top: 20px;
+    align-items: center;
+    border-radius: 9px;
+
+}
+
+
+#show-character{
+    width: 80%;
+    height: 90%;
+    align-items: center;
+}
